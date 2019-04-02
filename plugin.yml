@@ -1,0 +1,24 @@
+---
+name: ASR
+main: iJoshuaHD\iMCPE\ASR\Loader
+version: 2.0.3
+api: 3.0.0
+load: STARTUP
+author: iJoshuaHD
+description: Restarts your server at given interval.
+website: https://github.com/iJoshuaHD/ASR
+commands:
+  asr:
+    description: §8<OP>再起動の時間を設定
+    permission: asr.command.asr
+  restart:
+    description: 再起動までの時間を表示
+    permission: asr.command.restart
+permissions:
+  asr.command.asr:
+    description: 'Usage: /asr <value>'
+    default: false
+  asr.command.restart:
+    description: 'Usage: /restart'
+    default: false
+...
