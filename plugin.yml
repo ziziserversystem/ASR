@@ -9,7 +9,7 @@ description: Restarts your server at given interval.
 website: https://github.com/iJoshuaHD/ASR
 commands:
   asr:
-    description: §8<OP>再起動の時間を設定
+    description: §8<OP> 再起動の時間を設定
     permission: asr.command.asr
   restart:
     description: 再起動までの時間を表示
